@@ -48,7 +48,7 @@ with row4[2]:
 
 
 # Button to calculate risk
-if st.button('Calculate Risk'):
+if st.button('Calculate Risk',type="primary"):
     # Call the predict function from the helper module
     # print((age, income, loan_amount, loan_tenure_months, avg_dpd_per_delinquency,
     #                                             delinquency_ratio, credit_utilization_ratio, num_open_accounts,
