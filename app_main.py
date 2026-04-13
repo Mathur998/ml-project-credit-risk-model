@@ -1,7 +1,7 @@
 import streamlit as st
-from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
+from prediction_helper import predict  
 
-# Set the page configuration and title
+# Setting the page configuration and title
 st.set_page_config(page_title="Credit Risk Score & PD Predictor", page_icon="📊")
 st.title("Credit Risk Score & PD Predictor")
 
